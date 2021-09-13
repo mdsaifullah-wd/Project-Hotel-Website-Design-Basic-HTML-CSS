@@ -79,7 +79,6 @@ a {
 }
 
 
-
 /* Header Section */
 
 /* Logo */
@@ -108,10 +107,7 @@ a {
 }
 
 
-
-
-
-
+/* Showcase Section */
 #showcase {
     height: 600px;
     background: url(../img/showcase.jpg) no-repeat center center/cover;
@@ -130,6 +126,7 @@ a {
 }
 
 
+/* Home Info Section */
 #home-info .info-image,
 #home-info .info-content {
     width: 50%;
@@ -151,14 +148,23 @@ a {
 }
 
 
-/* Features */
+/* Features Section */
 .box {
     float: left;
     width: 33.3%;
     padding: 50px;
     text-align:center;
-  }
+}
   
-  .box i {
+.box i {
     margin-bottom: 10px;
-  }
+}
+
+
+/* Footer Section */
+#main-footer {
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 20px;
+}
