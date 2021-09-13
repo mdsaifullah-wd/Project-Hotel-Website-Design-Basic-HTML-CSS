@@ -37,19 +37,36 @@ a {
 .clr {
     clear:both;
 }
-.btn {
-    display: inline-block;
-    font-size: 18px;
+.marked {
+    color: #f7c08a;
+}
+.btn-dark {
     color: #fff;
     background: #333;
+    display: inline-block;
+    font-size: 18px;
     padding: 13px 20px;
     border: none;
     cursor: pointer;
-  }
-  .btn:hover {
+}
+.btn-dark:hover {
     background: #f7c08a;
     color: #333;
-  }
+}
+.btn-light {
+    background: #f4f4f4;
+    color: #333;
+    display: inline-block;
+    font-size: 18px;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+}
+.btn-light:hover {
+    background: #f7c08a;
+    color: #333;
+}
+
 
 
 /* Header Section */
@@ -100,13 +117,24 @@ a {
 #showcase .container p {
     padding-bottom: 20px;
 }
-/* #showcase .container a {
-    display: inline-block;
-    background: #333;
-    padding: 15px 20px;
-    
+
+
+#home-info .info-image,
+#home-info .info-content {
+    width: 50%;
+    height: 400px;
+    float: left;
 }
-#showcase .container a:hover {
-    background: #f7c08a;;
-    color: #000;
-} */
+#home-info .info-image {
+    background: url(../img/photo-1.jpg);
+    min-height: 100%;
+}
+#home-info .info-content {
+    color: #fff;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+#home-info .info-content p {
+    padding-bottom: 30px;
+}
