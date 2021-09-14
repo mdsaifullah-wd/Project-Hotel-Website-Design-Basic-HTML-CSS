@@ -11,16 +11,20 @@ html,body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.7em;
 }
+
 h1, h2, h3 {
     padding-bottom: 20px;
 }
+
 a {
     text-decoration: none;
     color: #fff;
 }
+
 p {
     margin: 10px 0;
 }
+
 
 /* Utility Classes */
 .container {
@@ -29,20 +33,27 @@ p {
     overflow: auto;
     padding: 0 20px;
 }
+
 .l-heading {
     font-size: 40px;
+    line-height: 1.2em;
 }
+
 .lead {
     font-size: 20px;
+    line-height: 1.8em;
 }
+
 .bg-dark {
     background: #333;
     color: #fff;
 } 
+
 .bg-light {
     background: #f4f4f4;
     color: #333;
 } 
+
 .bg-primary {
     background: #f7c08a;
     color: #333;
@@ -52,12 +63,15 @@ p {
     background-color: #444;
     color: #f7c08a;
 }
+
 .clr {
     clear:both;
 }
+
 .marked {
     color: #f7c08a;
 }
+
 .btn-dark {
     color: #fff;
     background: #333;
@@ -67,10 +81,12 @@ p {
     border: none;
     cursor: pointer;
 }
+
 .btn-dark:hover {
     background: #f7c08a;
     color: #333;
 }
+
 .btn-light {
     background: #f4f4f4;
     color: #333;
@@ -80,82 +96,12 @@ p {
     border: none;
     cursor: pointer;
 }
+
 .btn-light:hover {
     background: #f7c08a;
     color: #333;
 }
 
-
-/* Header Section */
-
-/* Logo */
-.logo {
-    padding-top: 20px;
-    font-weight: bold;
-    float:left;
-}
-
-/* Navigation Menu */
-#nav-menu ul {
-    list-style: none;
-    float: right;
-}
-#nav-menu li { 
-    float: left;   
-}
-#nav-menu ul li a {
-    display: inline-block;
-    padding: 20px;
-    text-align: center;
-}
-#nav-menu ul li a:hover {
-    background-color: #444;
-    color: #f7c08a;
-}
-
-
-/* Showcase Section */
-#showcase {
-    height: 600px;
-    background: url(../img/showcase.jpg) no-repeat center center/cover;
-}
-#showcase .container {
-    padding-top: 170px;
-    text-align:center;
-    color: #fff;
-}
-#showcase .container h1 {
-    font-size: 60px;
-    line-height: 1.2em;
-}
-#showcase .container p {
-    padding-bottom: 20px;
-}
-
-
-/* Home Info Section */
-#home-info .info-image,
-#home-info .info-content {
-    width: 50%;
-    height: 400px;
-    float: left;
-}
-#home-info .info-image {
-    background: url(../img/photo-1.jpg);
-    min-height: 100%;
-}
-#home-info .info-content {
-    color: #fff;
-    text-align: center;
-    padding: 50px 30px;
-    overflow: hidden;
-}
-#home-info .info-content p {
-    padding-bottom: 30px;
-}
-
-
-/* Features Section */
 .box {
     float: left;
     width: 33.3%;
@@ -168,7 +114,95 @@ p {
 }
 
 
-/* About Page */
+/* Header Section.............................................................................. */
+
+/* Logo */
+#nav-menu .logo {
+    padding-top: 20px;
+    font-weight: bold;
+    float:left;
+}
+
+
+/* Navigation Menu */
+#nav-menu ul {
+    list-style: none;
+    float: right;
+}
+
+#nav-menu li { 
+    float: left;   
+}
+
+#nav-menu ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#nav-menu ul li a:hover {
+    background-color: #444;
+    color: #f7c08a;
+}
+
+/* Home Page .................................................................................................................................................................................... */
+/* Showcase Section............................................................................ */
+#showcase {
+    height: 600px;
+    background: url(../img/showcase.jpg) no-repeat center center/cover;
+}
+
+#showcase .container {
+    padding-top: 170px;
+    text-align:center;
+    color: #fff;
+}
+
+#showcase .container h1 {
+    font-size: 60px;
+    line-height: 1.5em;
+}
+
+#showcase .container p {
+    padding-bottom: 40px;
+}
+
+#showcase .container a {
+    margin-bottom: 50px;
+}
+
+
+/* Home Info Section........................................................................... */
+#home-info .info-image,
+#home-info .info-content {
+    width: 50%;
+    height: 400px;
+    float: left;
+}
+
+#home-info .info-image {
+    background: url(../img/photo-1.jpg);
+    min-height: 100%;
+}
+
+#home-info .info-content {
+    color: #fff;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+
+#home-info .info-content p {
+    padding-bottom: 30px;
+}
+
+
+/* Features Section ............................................................................*/
+/* This section designed using .box utility class */
+
+
+/* About Page.................................................................................................................................................................................... */
+/* About Info Section.......................................................................... */
 #about-info {
     padding: 30px 0;
 }
@@ -178,11 +212,13 @@ p {
     width: 50%;
     min-height: 100%;
 }
+
 #about-info .info-right {
     float: right;
     width: 50%;
     min-height: 100%;
 }
+
 #about-info .info-right img {
     display: block;
     margin: auto;
@@ -191,33 +227,39 @@ p {
 }
 
 
-
-/* Testimonials */
+/* Testimonials Section........................................................................ */
 #testimonials {
-    height: 600px;
     background: url('../img/test-bg.jpg') no-repeat center center/cover;
     padding-top: 100px;
+    padding-bottom: 50px;
 } 
+
 #testimonials h2 {
     color: #fff;
     text-align: center;
     padding-bottom: 40px;
 }
+
 #testimonials .testimonial {
     padding: 20px;
     margin-bottom: 40px;
     border-radius: 5px;
     opacity: 0.9;
 }
+
 #testimonials .testimonial img {
     width: 100px;
     float: left;
     margin-right: 20px;
     border-radius: 50%;
 }
+
+/* Contact Page.................................................................................................................................................................................. */
+/* Contact Form Section........................................................................ */
 #contact-form {
     padding: 30px 0;
 }
+
 #contact-form .form-group {
     margin-bottom: 20px;
 }
@@ -244,7 +286,7 @@ p {
     border-color: #f7c08a;
 }
 
-/* Footer Section */
+/* Footer Section.............................................................................. */
 #main-footer {
     text-align: center;
     background: #444;
